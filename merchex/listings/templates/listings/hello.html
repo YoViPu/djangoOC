@@ -1,0 +1,15 @@
+# listings/templates/listings/hello.html
+
+<html>
+    <head>
+        <title>Merchex</title>
+    </head>
+    <body>
+        <h1>Hello !</h1>
+        <p>Mes bands</p>
+        <ul>
+            {% for band in bands %}
+                <li>{{ band.name }}</li>
+            {% endfor %}
+
+    </body>
